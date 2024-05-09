@@ -13,5 +13,12 @@ int main()
 
     int a = (int)(preRwq);
 
-    cout << a << endl;
+    if (a < 0)
+    {
+        cout << 0 << endl;
+        return 0;
+    }
+    else
+
+        cout << a << endl;
 }
