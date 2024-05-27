@@ -9,8 +9,8 @@ int main()
 
     s = a + b;
 
-    sort(s.begin(), s.end());
-    sort(c.begin(), c.end());
+    sort(    s.begin(),  s.end());
+    sort(  c.begin(),  c.end());
 
     if(s == c)
         cout << "YES" << endl;
